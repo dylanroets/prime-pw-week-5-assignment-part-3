@@ -21,3 +21,7 @@ addToCollection('Discovery', 'Daft Punk', 2001);
 addToCollection('Random Access Memories', 'Daft Punk', 2013);
 //testing by displaying current collection, should be 7 total
 console.log(collection);
+//starting shoeCollection function
+function showCollection(){
+    
+}
