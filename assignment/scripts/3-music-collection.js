@@ -29,5 +29,21 @@ function showCollection(array){
     }
 
 }
-
+//forgot how to assign values from an old object, then got the newRecord.object
 showCollection(collection)
+//find by artist function
+
+function findByArtist(artist){
+    let artistSearch = [];
+    console.log('Artists within the collection: ', artistSearch);
+    for (let newRecord of collection) {
+        if (newRecord.artist === artist) {
+        artistSearch.push(newRecord);
+        }
+    }return artistSearch;
+}
+
+findByArtist('The Clash');
+//I tested several other time with findByArtist('The Beat') and got back an empty array
+//I also tested the function multiple times but it only worked once, if I tried running it again it came back empty. I'm so confused on this one, have not been this irritated with a question yet.
+//I would definetely appreciate going through this one question monday.
